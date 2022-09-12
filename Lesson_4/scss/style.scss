@@ -1,0 +1,13 @@
+@import "_nullstyle.scss";
+@import "_font_face.scss";
+@import "_header.scss";
+@import "_nav.scss";
+
+body{
+	font-family: "Larsseit";
+} 
+
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}

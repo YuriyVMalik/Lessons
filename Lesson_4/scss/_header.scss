@@ -1,0 +1,88 @@
+
+.header{
+    margin-top: 27px;
+    background: url(../img/);
+    
+    .header-top{
+        height: 50px;
+        display: flex;
+        margin-bottom: 155px;
+        
+        .header-nav{
+            margin-left: 422px;
+            padding-top: 10px;
+        }
+
+        .header-top__logo-link{
+            font-size: 24px;
+            line-height: 27px;
+            letter-spacing: -0.035em;
+            color: #62D0DF;
+        }
+
+        .header-button{
+            margin-left: 250px;
+            .header-button__btn{
+                width: 150px;
+                height: 50px;
+                background: #62D0DF;
+                border-radius: 50px;
+                font-size: 14px;
+                line-height: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .header-content{
+        display: flex;
+        .header-left{
+            width: 484px;
+            .header-left__text-logo{
+                font-size: 24px;
+                line-height: 27px;
+                letter-spacing: -0.035em;
+                color: #62D0DF;
+                margin-bottom: 15px;
+            }
+            .header-left__title{
+                font-size: 48px;
+                line-height: 53px;
+                letter-spacing: -0.035em;
+                color: #22356F;
+                margin-bottom: 25px;
+            }
+            .header-left__text{
+                font-family: "Roboto";
+                font-size: 24px;
+                line-height: 42px;
+                color: #22356F;
+                margin-bottom: 66px;
+            }
+            .header-left__button{
+                .header-left__btn{
+                    font-family: "Roboto";
+                    margin-left: 38px;
+                    background-color: #FFFFFF;
+                    width: 150px;
+                    height: 50px;
+                    font-size: 16px;
+                    line-height: 23px;
+                    align-items: center;
+                    letter-spacing: 0.1em;
+                    color: #FAB63E;
+                    &:hover{
+                        background: #F9B640;
+                        color: #FFFFFF;
+                    }
+                    &:first-child{
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

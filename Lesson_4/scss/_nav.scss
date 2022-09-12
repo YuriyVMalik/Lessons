@@ -1,0 +1,30 @@
+
+.nav{
+    .nav-list{
+        .nav-list__item{
+            display: inline;
+            padding-left: 25px;
+            padding-right: 25px;
+            .nav-list__link{
+                font-size: 14px;
+                line-height: 16px;
+                color: #22356F;
+                &:hover{
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid ;
+                    color: #22356F;
+                }
+            }
+            &:first-child{
+                padding-left: 0px;
+            }
+
+            &:last-child{
+                padding-left: 0px;
+            }
+        }
+    }
+}
+
+
+
