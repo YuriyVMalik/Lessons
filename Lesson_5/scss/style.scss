@@ -1,0 +1,89 @@
+@import "_nullstyle.scss";
+@import "_font_face.scss";
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    
+    .header{
+        .nav__item{
+            display: inline-block;
+            padding: 15px;
+            margin: 10px;
+            background-color: chartreuse;
+            &:hover{
+                border-radius: 25px;
+            }
+        }
+
+        .nav__link{
+            font-family:'Lobster',sans-serif;
+            font-size: 20px;
+            color: chocolate;
+            &:hover{
+                text-decoration: underline;
+                text-shadow: 2px 2px 5px #000;
+            }
+        }
+
+        .bottom{
+            text-align: end;
+        }
+    }
+
+    .main{
+        margin-top: 30px;
+        .main-content{
+            .main-content__title{
+                letter-spacing: 10px;
+                text-align: center;
+                font-family:'Lobster',sans-serif;
+                font-size: 30px;
+            }
+            .main-content__desc{
+                font-family:'Ledger',serif;
+                margin-top: 25px;
+                font-size: 18px;
+                line-height: 1.5;
+                text-align: justify;
+                word-spacing: 7px;
+                margin-bottom: 30px;
+                font-style: italic;
+                text-indent: 100px;
+                & .capitalize{
+                    text-transform: capitalize;
+                    text-decoration: underline;
+                    color:blue;
+                }
+                & .uppercase{
+                    text-transform: uppercase;
+                    text-decoration: overline;
+                    color:aqua;
+                }
+            }
+            .content-foto__foto{
+                padding: 0 5px 0 5px;
+                display: inline-block;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .footer{
+        .top{
+            text-align: end;
+        }
+        .footer-text{
+            .footer-text__text{
+                max-width: 200px;
+                max-height: 200px;
+                display: inline-block;
+                white-space: wrap;
+                overflow: auto;
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+
+    }
+}
