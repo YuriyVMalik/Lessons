@@ -1,0 +1,98 @@
+.footer{
+    .img-footer{
+        margin-bottom: 50px;
+        .img-footer__img{
+            max-width: 100%;
+            max-height: 100%;  
+            margin: 10px;
+            box-shadow: 2px 2px 2px 5px green;
+            &:hover{
+                box-shadow: inset 2px 2px 2px 5px red;
+                border-radius: 100%;
+            }
+        }
+
+    }
+
+    .img-footer2{
+        margin-bottom: 50px;
+        .img-footer2__img{
+            margin: 7px;
+            max-width: 100%;
+            max-height: 100%; 
+            border: 4px solid red;
+            &:hover{
+                border-top: 4px dashed gold;
+                border-right: 4px solid green;
+                border-bottom: 4px dotted greenyellow;
+                border-left: 4px double grey;
+            }
+        }
+    }
+
+    .img-footer3{
+        margin-bottom: 50px;
+        .img-footer3__img{
+            margin: 7px;
+            max-width: 100%;
+            max-height: 100%; 
+            opacity: 1;
+            &:hover{
+                opacity: 0;
+                transition: all 0.3s ease 0s;
+            }
+        }
+    }
+
+    .footer-text{
+        margin-bottom: 50px;
+        .footer-text__text{
+            font-size: 20px;
+            max-height: 100px;
+            overflow: auto;
+            border: 5px double green;
+            border-radius: 20px;
+            padding: 10px;
+            opacity: 0.5;
+        }
+    }
+
+    .footer-circle{
+        margin-bottom: 50px;
+        .footer-circle__circle{
+            margin: 15px;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius:100px;
+            box-shadow: 5px 5px 5px 5px green;   
+            &:hover{
+                box-shadow: inset 5px 5px 5px 5px green;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: all 1s ease-out;
+            }
+        }
+
+        .footer-circle__circle_facebook:hover{
+            background-image: url('../img/Facebook.svg');
+        }
+
+        .footer-circle__circle_twitter:hover{
+            background-image: url('../img/Twitter.svg');
+        }
+
+        .footer-circle__circle_linkedIn:hover{
+            background-image: url('../img/Linked_In.svg');
+        }
+
+        .footer-circle__circle_Instagram:hover{
+            background-image: url('../img/Instagram.svg');
+        } 
+        
+        .footer-circle__circle_linkedInred:hover{
+            background-image: url('../img/Linked_In_red.svg');
+        } 
+    }
+}
