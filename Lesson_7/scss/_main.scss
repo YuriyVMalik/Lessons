@@ -1,0 +1,137 @@
+.main{
+    font-family: "Lato";
+    .main-container{
+        max-width: 810px;
+        margin: 0 auto;
+        .main-article{
+            margin-bottom: 12px;
+            .main-article__files-icon{
+                padding-left: 5px;
+                margin-right: 10px;
+            }
+            .main-article__files-text{
+                font-weight: 400;
+                font-size: 16px;
+                color: #424551;
+                margin-right: 12px;
+            }
+            .main-article__line{
+                border: 1px solid #787A80;
+                margin-right: 12px;
+            }
+            .main-article__recruting{
+                font-weight: 700;
+                font-size: 16px;
+                color: #FF3F3A;
+            }
+        }
+
+        .main-container__title{
+            font-weight: 900;
+            font-size: 46px;
+            line-height: 130%;
+            color: #1E212C;
+            overflow: auto;
+            margin-bottom: 30px;
+        }
+
+        .main-socials{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            .calendar-time{
+                padding-left: 30px;
+                .calendar-time__img{
+                    margin-right: 10px;
+                }
+                .calendar-time__date{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #787A80;
+                    margin-right: 25px;
+                }
+                .calendar-time__clock{
+                    margin-right: 10px;
+                }
+                .calendar-time__time{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #787A80;
+                    margin-right: 25px;
+                }
+
+            }
+            .socials{
+                .socials__title{
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #1E212C;
+                    margin-right: 12px;
+                }
+                .socials__link{
+                    margin-right: 12px;
+                    &:last-child{
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+
+        .main-text__image{
+            max-width: 100%;
+            max-height: 100%;
+            margin-bottom: 60px;
+        }
+
+        .main-text{
+            .main-text__desc{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 150%;
+                color: #1E212C;
+                overflow: auto;
+                margin-bottom: 24px;
+            }
+
+            .main-text__tagline{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: #424551;
+                margin-bottom: 24px;
+                &:last-child{
+                    margin-bottom: 48px;
+                }
+            }
+
+            .main-text__blockquote{
+                background-image: url('../img/braces.svg');
+                background-repeat: no-repeat;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 150%;
+                color: #1E212C;
+                padding-left: 60px;
+                margin-bottom: 48px;
+            }
+
+            .main-text__items{
+                margin-bottom: 24px;
+                .main-text__item{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #424551;
+                    margin-bottom: 8px;
+                    .main-text__check{
+                        margin-right: 16px;
+                    }
+                    &:last-child{
+                        margin-right: 0px;
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.footer{
+    [class*='-container']{
+        margin: 0 auto;
+        max-width: 810px;
+    }
+    background-image: radial-gradient(circle closest-corner at 75% 40%, red, #2e0a9f);
+    .top-container{
+        min-height: 500px;
+        background: url('../img/footer/Facebook.svg') 0px 20px / auto no-repeat,
+        url('../img/footer/Twitter.svg') 30px 20px / auto no-repeat,
+        url('../img/footer/YouTube.svg') 60px 20px / auto no-repeat,
+        url('../img/footer/telegram.svg') 100px 20px / auto no-repeat,
+        url('../img/footer/Instagram.svg') 140px 20px / auto no-repeat,
+        url('../img/footer/Linked_In.svg') 175px 20px / auto no-repeat,
+        url('../img/footer/illustration.svg') right 20px / auto no-repeat;
+    }
+
+    .bottom-container{
+        background: url('../img/footer/1.jpg') 0px 20px / auto no-repeat,
+        url('../img/footer/2.jpg') 450px 20px / auto no-repeat,
+    }
+}
