@@ -1,0 +1,154 @@
+ @-webkit-keyframes finish_block {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes finish_block {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.finish:hover + .finish_block {
+	-webkit-animation: finish_block 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: finish_block 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.game{
+    width: 1200px;
+    height: 900px;
+    background-color: aqua;
+    margin: 0 auto 100px;
+    .start{
+        border: 2px double #000;
+        border-radius: 5px;
+        max-width: 50px;
+        text-align: center;
+    }
+    .finish{
+        border: 2px double #000;
+        border-radius: 5px;
+        max-width: 50px;
+        text-align: center;
+
+        position: relative;
+        top: -25px;
+        right: -750px;
+    }
+
+    .finish:hover + div{
+        visibility: visible;
+    }
+
+    .finish_block{
+        border-radius:100%;
+        border: 1px solid black;
+        width: 250px;
+        height: 250px;
+        font-family: "Arizonia";
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -600px;
+        right: -500px;
+        visibility: hidden;
+    }
+    .start:hover + div{
+        visibility: visible;
+    }
+    .block1{
+        visibility: hidden;
+        width: 70px;
+        height: 100px;
+        background-color: blueviolet;
+        &:hover{
+            visibility: visible;
+        }
+    }
+
+    .block1:hover + div{
+        visibility: visible;
+    }
+    .block2{
+        width: 250px;
+        height: 25px;
+        background-color: forestgreen;
+        visibility: hidden;
+        &:hover{
+            visibility: visible;
+        }
+    }
+    .block3{
+        width: 50px;
+        height: 250px;
+        background-color: red;
+        visibility: hidden;
+        &:hover{
+            visibility: visible;
+        }
+    }
+    .block2:hover + div{
+        visibility: visible;
+    }
+    .block4{
+        height: 50px;
+        background-color: yellow;
+        visibility: hidden;
+        &:hover{
+            visibility: visible;
+        }
+    }
+    .block3:hover + div{
+        visibility: visible;
+    }
+    .block5{
+        position: relative;
+        top: 0px;
+        right: -1150px;
+
+        width: 50px;
+        height: 425px;
+        background-color: green;
+        visibility: hidden;
+        &:hover{
+            visibility: visible;
+        }
+    }
+    .block4:hover + div{
+        visibility: visible;
+    }
+    .block6{
+        position: relative;
+        top: 0px;
+        right: -800px;
+
+        width: 400px;
+        height: 30px;
+        background-color: green;
+        visibility: hidden;
+        &:hover{
+            visibility: visible;
+        }
+    }
+    .block5:hover + div{
+        visibility: visible;
+    }
+}
+
+

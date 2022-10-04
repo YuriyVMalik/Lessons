@@ -1,0 +1,69 @@
+
+.website_2{
+    .website_2-header{
+        background-color: #1F2E35;
+        font-family: "Poppins";
+        .container{
+            max-width: 1150px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 18px;
+            .logo{
+                padding-top: 23px;
+                margin-right: 237px;
+                .logo_link{
+                    display: flex;
+                }
+                .logo__img{
+                    margin-right: 16px;
+                }
+                .logo__text{
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                }
+            }
+            .nav{
+                padding-top: 27px;
+                .nav__list{
+                    .nav__item{
+                        display: inline-block;
+                        margin-right: 31px;
+                        .nav__link{
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+            .sign{
+                padding-top: 19px;
+                .sign__sign{
+                    min-width: 102px;
+                    min-height: 43px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    margin-right: 24px;
+                    background: #1F2E35;
+                    border: 1px solid #BCD0E5;
+                    border-radius: 4px;
+                    &:hover{
+                        background: #02897A;
+                    }
+                }
+            }
+            .theme{
+                padding-top: 24px;
+                .theme__button{
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+}
