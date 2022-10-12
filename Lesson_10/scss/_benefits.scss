@@ -1,0 +1,99 @@
+.benefits__question h6 {
+    text-align: center;
+}
+
+.main__benefits{
+    padding-bottom: 177px;
+}
+
+.benefits__title {
+    margin-bottom: 60px;
+    & h2 {
+        text-align: center;
+    }
+}
+
+.benefits__link {
+    margin-bottom: 60px;
+
+    & a {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: #9a9ca5;
+        display: inline-block;
+        width: 304px;
+        height: 46px;
+        border: 2px solid transparent ;
+        text-align: center;
+        padding-top: 7px;
+        border-radius: 4px;
+    }
+
+    & a:hover {
+        border: 2px solid #ff3f3a;
+        color: #ff3f3a;
+    }
+
+    & a:nth-child(1)::before {
+        content: "";
+        background: url("../img/icon/Star.svg") 0 0 / auto no-repeat;
+        display: inline-block;
+        min-width: 16px;
+        min-height: 16px;
+        margin-right: 8px;
+    }
+
+    & a:nth-child(2)::before {
+        content: "";
+        background: url("../img/icon/like.svg") 0 0 / auto no-repeat;
+        display: inline-block;
+        min-width: 16px;
+        min-height: 16px;
+        margin-right: 8px;
+    }
+
+    & a:nth-child(3)::before {
+        content: "";
+        background: url("../img/icon/Layouts.svg") 0 0 / auto no-repeat;
+        display: inline-block;
+        min-width: 16px;
+        min-height: 16px;
+        margin-right: 8px;
+    }
+
+    & a:nth-child(4)::before {
+        content: "";
+        background: url("../img/icon/Chat.svg") 0 0 / auto no-repeat;
+        display: inline-block;
+        min-width: 16px;
+        min-height: 16px;
+        margin-right: 8px;
+    }
+}
+
+.content__text {
+    max-width: 495px;
+    padding-top: 122px;
+    .content__title {
+        margin-bottom: 24px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 130%;
+        color: #1e212c;
+        overflow: auto;
+    }
+    .content__info {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #424551;
+    }
+}
+
+.benefits__content {
+    height: 440px;
+    background: url("../img/icon/illustration.svg") 600px 0 / auto no-repeat;
+}

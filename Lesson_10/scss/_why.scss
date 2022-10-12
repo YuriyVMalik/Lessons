@@ -1,0 +1,20 @@
+.main__why{
+    padding-top: 185px;
+    padding-bottom: 185px;
+}
+.why__body {
+    display: flex;
+    flex-direction: row;
+}
+.why__img {
+    margin-right: 135px;
+    & img{
+        max-width: 100%;
+    }
+}
+.why__question {
+    margin-bottom: 8px;
+}
+.why__list {
+    margin-bottom: 48px;
+}

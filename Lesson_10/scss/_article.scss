@@ -1,0 +1,46 @@
+
+
+.article__body {
+    max-width: 810px;
+    margin: 0 auto;
+    & h2 {
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 130%;
+        color: #1e212c;
+        margin-bottom: 92px;
+    }
+
+    .article__img {
+        margin-bottom: 60px;
+        &img {
+            max-width: 100%;
+        }
+    }
+    .article__text {
+        & h2 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: #1e212c;
+            margin-bottom: 24px;
+        }
+        & p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #424551;
+            margin-bottom: 24px;
+        }
+        & blockquote{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: #1E212C;
+            margin-bottom: 48px;
+        }
+        & .article__list{
+            margin-bottom: 24px;
+        }
+    }
+}
