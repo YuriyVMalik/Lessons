@@ -1,0 +1,30 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: blue;
+}
+
+.header__container {
+	padding: 25px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	color: red;
+	text-transform: uppercase;
+	.header__nav {
+		
+
+		& a {
+			color: red;
+			text-transform: uppercase;
+		}
+		& li {
+			//display: inline-block;
+			&:not(:last-child) {
+				margin-right: 50px;
+			}
+		}
+	}
+}

@@ -1,0 +1,228 @@
+.sidebar-left {
+	font-size: 12px;
+	padding: 50px;
+	text-align: center;
+	position: fixed;
+	height: 70%;
+	width: 15%;
+	left: 0;
+	top:10%;
+	background-color: chartreuse;
+	& li {
+		margin-bottom: 25px;
+	}
+	& p {
+		margin-bottom: 10px;
+	}
+}
+
+.sidebar-right {
+	font-size: 12px;
+	padding: 50px;
+	text-align: center;
+	position: fixed;
+	height: 70%;
+	width: 15%;
+	right: 0;
+	top:10%;
+	background-color: chartreuse;
+	& li {
+		margin-bottom: 25px;
+	}
+	& p {
+		margin-bottom: 10px;
+	}
+}
+
+.block-picture {
+	border: 2px solid black;
+	height: 700px;
+	position: relative;
+	top: 70px;
+	left: 950px;
+	height: 250px;
+	width: 355px;
+	background-color: #ffdad5;
+}
+
+.block-picture2{
+	border: 2px solid black;
+	position: relative;
+	bottom: 130px;
+	left: 300px;
+	width: 602px;
+	height: 551px;
+	background-color: #ffdad5;
+}
+
+.block-picture__elem1::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/1.svg") 0 0/cover no-repeat;
+	top: 3px;
+	left: 8px;
+	width: 70px;
+	height: 79px;
+}
+
+.block-picture__elem2::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/2.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	width: 94px;
+	height: 150px;
+}
+
+.block-picture__elem3::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/3.svg") 0 0/cover no-repeat;
+	top: 47px;
+	left: 81px;
+	width: 70px;
+	height: 79px;
+}
+
+.block-picture__elem4::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/4.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	left: 71px;
+	width: 51px;
+	height: 90px;
+}
+
+.elem-rotate:hover::before{
+	transition: all 0.3s ease 0s;
+    transform: rotate(-360deg);
+}
+
+.elem-scale:hover::before{
+	transition: all 0.3s ease 0s;
+    transform:scale(1.3);
+}
+
+.block-picture__elem5::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/5.svg") 0 0/cover no-repeat;
+	top: 0;
+	left: 164px;
+	width: 96px;
+	height:79px;
+}
+
+.block-picture__elem6::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/6.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	left: 141px;
+	width: 58px;
+	height: 161px;
+}
+
+.block-picture__elem7::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/7.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	left: 182px;
+	width: 96px;
+	height: 162px;
+}
+
+.block-picture__elem8::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/8.svg") 0 0/cover no-repeat;
+	top: 26px;
+	right: 0;
+	width: 92px;
+	height: 75px;
+}
+
+.block-picture__elem9::before {
+	content:"";
+	position: absolute;
+	background: url("../img/icon/block_1/9.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	right: 15px;
+	width: 72px;
+	height: 124px;
+}
+
+.block-picture2__elem1::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/10.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	left: 29px;
+	width: 154px;
+	height:263px;
+}
+
+.block-picture2__elem2::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/11.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	right: 95px;
+	width: 334px;
+	height:458px;
+	z-index: 4;
+}
+
+.block-picture2__elem3::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/15.svg") 0 0/cover no-repeat;
+	bottom: 0;
+	right: 61px;
+	width: 17px;
+	height:263px;
+}
+
+.block-picture2__elem4::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/14.svg") 0 0/cover no-repeat;
+	top: 70px;
+	left: 67px;
+	width: 283px;
+	height:216px;
+	z-index: 3;
+}
+
+.block-picture2__elem5::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/13.svg") 0 0/cover no-repeat;
+	top: 0px;
+	right: 29px;
+	width: 196px;
+	height:285px;
+}
+
+.block-picture2__elem6::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/12.svg") 0 0/cover no-repeat;
+	top: 16px;
+	right: 140px;
+	width: 395px;
+	height:268px;
+	z-index: 1;
+}
+
+.block-picture2__elem7::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/block_1/16.svg") 0 0/cover no-repeat;
+	top: 284.08px;
+	left: 0;
+	width: 563px;
+	height: 1.5px;
+}

@@ -1,0 +1,52 @@
+.menu {
+    .menu__item:hover .sub-menu {
+			opacity: 1;
+			visibility: visible;
+			top: 100%;
+		}
+		.menu__link {
+			font-size: 16px;
+			color: #fff;
+			display: inline-block;
+			padding: 5px 0px;
+		}
+		.sub-menu {
+			background-color: #77608d;
+			padding: 15px;
+			position: absolute;
+			min-width: 180px;
+			top: 130%;
+			left: 0;
+			opacity: 0;
+			visibility: hidden;
+			transition: all 0.3s ease 0s;
+		}
+
+		.sub-menu__item:not(:last-child) {
+			margin-bottom: 10px;
+		}
+
+		.sub-menu__link {
+			font-size: 16px;
+			color: #fff;
+		}
+
+
+    & a {
+        color: red;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    & li {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 50px;
+        }
+    }
+}
+
+.logo{
+    font-weight: 700;
+	color: red;
+	text-transform: uppercase;
+}
