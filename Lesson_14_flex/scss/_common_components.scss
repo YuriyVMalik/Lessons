@@ -1,0 +1,21 @@
+.menu {
+    & ul {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+    & li {
+        border: 1px solid black;
+        padding: 15px;
+        background-color: darkorange;
+        &:hover {
+            background-color: darkolivegreen;
+            transition: all 1s ease 0s;
+        }
+    }
+    & a {
+        font-weight: 700;
+        font-size: 25px;
+    }
+}
